@@ -2,3 +2,7 @@ name = "python-hello-world"
 main = "src/entry.py"
 compatibility_flags = ["python_workers"]
 compatibility_date = "2025-08-14"
+
+rules = [
+  { type = "Data", globs = ["python_modules/**/*.js"], fallthrough = true }
+]

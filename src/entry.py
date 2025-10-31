@@ -72,4 +72,3 @@ class Default(WorkerEntrypoint):
             stream=False
         )
         return response.choices[0].message.content
-    
