@@ -74,7 +74,7 @@ class Default(WorkerEntrypoint):
     
     async def ai_api(self, q):
         api_key = "sk-dc5ae06c3bee483db2dd01ea5fbc004a"
-        deepseek_url = "https://api.deepseek.com"
+        deepseek_url = "https://api.deepseek.com/chat/completions"
         headers = {
             "Content-Type": "application/json",
             "Authorization": f"Bearer {api_key}"
